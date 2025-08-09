@@ -3,10 +3,18 @@
  import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
  import{getFirestore, setDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
  
- const firebaseConfig = {
- //YOUR COPIED FIREBASE PART SHOULD BE HERE
- //WATCH THIS VIDEO TO LEARN WHAT TO PUT HERE   https://youtu.be/_Xczf06n6x0
- };
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyB7reAgez_1EZnW5idGO88uJXf-NAIm7b0",
+  authDomain: "login-form-2b75a.firebaseapp.com",
+  projectId: "login-form-2b75a",
+  storageBucket: "login-form-2b75a.firebasestorage.app",
+  messagingSenderId: "258193633504",
+  appId: "1:258193633504:web:db24c5836a56e68118a085",
+  measurementId: "G-0YGHRLFS6Y"
+};
+ 
 
  // Initialize Firebase
  const app = initializeApp(firebaseConfig);
